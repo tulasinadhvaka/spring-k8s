@@ -17,13 +17,12 @@ Run
 
 Docker Build
 
- docker build . -t <user>/<imagename>
-
+    docker build . -t <user>/<imagename>
 
 Docker push
 
- docker push <user>/<imagename>
+    docker push <user>/<imagename>
 
 Kubernetes deploy
 
- kubectl apply -f spring-deployment.yml
+    kubectl apply -f spring-deployment.yml
